@@ -1,0 +1,30 @@
+/* StudentDetailsTable.css */
+.student-details-table {
+    margin-top: 20px;
+  }
+  
+  .student-details-table h2 {
+    margin-bottom: 20px;
+  }
+  
+  .student-details-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-details-table th,
+  .student-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .student-details-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .student-details-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

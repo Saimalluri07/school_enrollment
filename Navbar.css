@@ -1,0 +1,33 @@
+/* Navbar.css */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Make the list items horizontal */
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px; /* Add padding to make it look like a button */
+    border-radius: 4px; /* Add border radius to make it rounded */
+    transition: background-color 0.3s; /* Add smooth transition on hover */
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+  }
+  

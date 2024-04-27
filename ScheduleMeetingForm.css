@@ -1,0 +1,35 @@
+.schedule-meeting-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .schedule-meeting-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-meeting-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-meeting-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  .schedule-meeting-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .schedule-meeting-form button:hover {
+    background-color: #0056b3;
+  }
+  

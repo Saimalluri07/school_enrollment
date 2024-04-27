@@ -1,0 +1,37 @@
+/* StudentInfoForm.css */
+.student-info-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .student-info-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .student-info-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .student-info-form input[type="text"],
+  .student-info-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .student-info-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .student-info-form button:hover {
+    background-color: #0056b3;
+  }
+  
